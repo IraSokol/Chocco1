@@ -1,6 +1,6 @@
 .order-section {
   display: flex;
-  background: url("../../img-seven-eight/pattern.png");
+  background: url("../img-seven-eight/pattern.png");
   height: 100vh;
   min-height: 650px;
   position: relative;
@@ -9,11 +9,11 @@
   position: absolute;
   bottom: 50px;
   left: 70px;
-  content: url("../../img-seven-eight/blackberry.png");
+  content: url("../img-seven-eight/blackberry.png");
 }
 .order-section:after {
   position: absolute;
   bottom: 50px;
   right: 70px;
-  content: url("../../img-seven-eight/leave-bottom-right.png");
+  content: url("../img-seven-eight/leave-bottom-right.png");
 }

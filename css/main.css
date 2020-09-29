@@ -68,7 +68,7 @@ img {
 
 .hero {
   display: flex;
-  background: url("../../img-one/decor-one.png") right bottom no-repeat;
+  background: url("../img-one/decor-one.png") right bottom no-repeat;
   background-color: #61c4d9;
   height: 100vh;
   min-height: 650px;
@@ -79,13 +79,13 @@ img {
   position: absolute;
   bottom: -45px;
   left: 2%;
-  content: url("../../img-one/leave-left-one.png");
+  content: url("../img-one/leave-left-one.png");
 }
 .hero:after {
   position: absolute;
   bottom: -40px;
   right: 0;
-  content: url("../../img-one/group_4.png");
+  content: url("../img-one/group_4.png");
 }
 
 .hero__title-section {
@@ -98,7 +98,7 @@ img {
   justify-content: space-between;
   height: 100%;
   padding: 24px 0 45px;
-  background: url("../../img-one/bars-one.png") right center/50% auto no-repeat;
+  background: url("../img-one/bars-one.png") right center/50% auto no-repeat;
 }
 
 .hero__main-title {
@@ -263,7 +263,7 @@ img {
   position: relative;
 }
 .benefits__item:before {
-  content: url("../../img-two/dots.jpg");
+  content: url("../img-two/dots.jpg");
   position: absolute;
   top: 50px;
   right: 0;
@@ -304,10 +304,10 @@ img {
 
 .benefits-section {
   position: relative;
-  background: url("../../img-two/leave-gray.png") left top 57% no-repeat;
+  background: url("../img-two/leave-gray.png") left top 57% no-repeat;
 }
 .benefits-section:before {
-  content: url("../../img-two/raspberries.png");
+  content: url("../img-two/raspberries.png");
   position: absolute;
   bottom: -80px;
   left: 0;
@@ -315,7 +315,7 @@ img {
 
 .reviews__display {
   display: flex;
-  background: url("../../img-five-six/decor.png") right top/13% no-repeat;
+  background: url("../img-five-six/decor.png") right top/13% no-repeat;
   background-color: #f8faf9;
   padding: 50px 45px 34px;
   margin-bottom: 20px;
@@ -403,16 +403,16 @@ img {
 
 .reviews-section {
   position: relative;
-  background: url("../../img-five-six/berry.png") right top 26% no-repeat;
+  background: url("../img-five-six/berry.png") right top 26% no-repeat;
 }
 .reviews-section:before {
-  content: url("../../img-five-six/decor-left.png");
+  content: url("../img-five-six/decor-left.png");
   position: absolute;
   bottom: -10px;
   left: 0;
 }
 .reviews-section:after {
-  content: url("../../img-five-six/berries-left.png");
+  content: url("../img-five-six/berries-left.png");
   position: absolute;
   bottom: 100px;
   left: 20px;
@@ -425,7 +425,7 @@ img {
 
 .order-section {
   display: flex;
-  background: url("../../img-seven-eight/pattern.png");
+  background: url("../img-seven-eight/pattern.png");
   height: 100vh;
   min-height: 650px;
   position: relative;
@@ -434,13 +434,13 @@ img {
   position: absolute;
   bottom: 50px;
   left: 70px;
-  content: url("../../img-seven-eight/blackberry.png");
+  content: url("../img-seven-eight/blackberry.png");
 }
 .order-section:after {
   position: absolute;
   bottom: 50px;
   right: 70px;
-  content: url("../../img-seven-eight/leave-bottom-right.png");
+  content: url("../img-seven-eight/leave-bottom-right.png");
 }
 
 .form {
@@ -498,7 +498,7 @@ img {
   border-radius: 0;
 }
 .radio--checkbox .radio__visible:before {
-  background: url("../../img-seven-eight/checkmark.svg") center center no-repeat;
+  background: url("../img-seven-eight/checkmark.svg") center center no-repeat;
 }
 
 .radio__elem {

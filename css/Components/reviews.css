@@ -1,6 +1,6 @@
 .reviews__display {
   display: flex;
-  background: url("../../img-five-six/decor.png") right top/13% no-repeat;
+  background: url("../img-five-six/decor.png") right top/13% no-repeat;
   background-color: #f8faf9;
   padding: 50px 45px 34px;
   margin-bottom: 20px;
