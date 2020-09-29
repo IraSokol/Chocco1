@@ -1,0 +1,25 @@
+.reviews-section {
+    position: relative;
+    background: url("../../img-five-six/berry.png") right  top 26% no-repeat;
+
+    &:before {
+        content: url("../../img-five-six/decor-left.png");
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+    }
+
+    &:after {
+        content: url("../../img-five-six/berries-left.png");
+        position: absolute;
+        bottom: 100px;
+        left: 20px;
+
+    }
+   
+}
+
+.reviews__switcher {
+    display: flex;
+    justify-content: center;
+}
