@@ -1,23 +1,10 @@
 .hero {
   display: flex;
-  background: url("../../img-one/decor-one.png") right bottom no-repeat;
   background-color: #61c4d9;
   height: 100vh;
-  min-height: 650px;
+  min-height: rem(650px);
   color: #fff;
   position: relative;
-}
-.hero:before {
-  position: absolute;
-  bottom: -45px;
-  left: 2%;
-  content: url("../../img-one/leave-left-one.png");
-}
-.hero:after {
-  position: absolute;
-  bottom: -40px;
-  right: 0;
-  content: url("../../img-one/group_4.png");
 }
 
 .hero__title-section {
@@ -29,20 +16,33 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  padding: 24px 0 45px;
-  background: url("../../img-one/bars-one.png") right center/50% auto no-repeat;
+  padding: rem(24px) 0 rem(45px);
+  background: url("../img-one/bars-one.png") right center/50% auto no-repeat;
+  background: url("../img-one/decor-one.png") right bottom no-repeat;
+}
+.hero__container:before {
+  position: absolute;
+  bottom: rem(-45px);
+  left: 2%;
+  content: url("../img-one/leave-left-one.png");
+}
+.hero__container:after {
+  position: absolute;
+  bottom: rem(-40px);
+  right: 0;
+  content: url("../img-one/group_4.png");
 }
 
 .hero__main-title {
-  font-size: 48px;
+  font-size: rem(48px);
   line-height: 1.1;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: rem(15px);
   text-transform: uppercase;
 }
 
 .hero__title-desc {
-  font-size: 21px;
-  margin-bottom: 28px;
+  font-size: rem(21px);
+  margin-bottom: rem(28px);
   padding-right: 10%;
 }

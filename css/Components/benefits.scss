@@ -11,7 +11,7 @@
     &:before {
         content: url("../img-two/dots.jpg");
         position: absolute;
-        top: 50px;
+        top: rem(50px);
         right: 0;
         transform: translateX(50%);
     }

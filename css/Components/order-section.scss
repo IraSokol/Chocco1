@@ -2,13 +2,13 @@
     display: flex;
     background: url("../img-seven-eight/pattern.png");
     height: 100vh;
-    min-height: 650px;
+    min-height: rem(650px);
     position: relative;
 
     &:before {
         position: absolute;
-        bottom: 50px;
-        left: 70px;
+        bottom: rem(50px);
+        left: rem(70px);
         content: url("../img-seven-eight/blackberry.png");
 
 
@@ -16,8 +16,8 @@
 
     &:after {
         position: absolute;
-        bottom: 50px;
-        right: 70px;
+        bottom: rem(50px);
+        right: rem(70px);
         content: url("../img-seven-eight/leave-bottom-right.png");
     }
 }

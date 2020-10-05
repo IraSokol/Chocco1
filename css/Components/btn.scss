@@ -1,14 +1,14 @@
 .form__btns {
-    margin-top: 30px;
-    margin-left: 8px;
+    margin-top: rem(30px);
+    margin-left: rem(8px);
 }
 
 .btn {
-    font-size: 19px;
+    font-size: rem(19px);
     font-weight: bold; 
-    padding: 18px 35px;
+    padding: rem(18px) rem(37px);
     text-transform: uppercase;
-    border-radius: 100px;
+    border-radius: rem(100px);
     line-height: 1;
     text-decoration: none;
     display: inline-block;

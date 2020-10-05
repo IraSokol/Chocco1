@@ -5,14 +5,14 @@
 .reviews-section:before {
   content: url("../img-five-six/decor-left.png");
   position: absolute;
-  bottom: -10px;
+  bottom: rem(-10px);
   left: 0;
 }
 .reviews-section:after {
   content: url("../img-five-six/berries-left.png");
   position: absolute;
-  bottom: 100px;
-  left: 20px;
+  bottom: rem(100px);
+  left: rem(20px);
 }
 
 .reviews__switcher {
