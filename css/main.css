@@ -81,11 +81,25 @@ img {
 
 .hero {
   display: flex;
+  background: url("../img-one/decor-one.png") right bottom no-repeat;
+  background-size: 35%;
   background-color: #61c4d9;
   height: 100vh;
   min-height: 36.1111111111rem;
   color: #fff;
   position: relative;
+}
+.hero:before {
+  position: absolute;
+  bottom: -2.5rem;
+  left: 2%;
+  content: url("../img-one/leave-left-one.png");
+}
+.hero:after {
+  position: absolute;
+  bottom: -2.2222222222rem;
+  right: 0;
+  content: url("../img-one/group_4.png");
 }
 
 .hero__title-section {
@@ -99,19 +113,6 @@ img {
   height: 100%;
   padding: 1.3333333333rem 0 2.5rem;
   background: url("../img-one/bars-one.png") right center/50% auto no-repeat;
-  background: url("../img-one/decor-one.png") right bottom no-repeat;
-}
-.hero__container:before {
-  position: absolute;
-  bottom: -2.5rem;
-  left: 2%;
-  content: url("../img-one/leave-left-one.png");
-}
-.hero__container:after {
-  position: absolute;
-  bottom: -2.2222222222rem;
-  right: 0;
-  content: url("../img-one/group_4.png");
 }
 
 .hero__main-title {
